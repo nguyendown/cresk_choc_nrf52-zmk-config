@@ -1,0 +1,14 @@
+file_format: "1"
+id: cresk_choc_nrf52840
+name: cresk_choc_nrf52840
+url: https://github.com/nguyendown/cresk
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+siblings:
+  - cresk_choc_nrf52840_left
+  - cresk_choc_nrf52840_right

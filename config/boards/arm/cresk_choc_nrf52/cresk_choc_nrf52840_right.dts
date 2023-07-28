@@ -1,0 +1,9 @@
+/*
+ * Copyright (c) 2023 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/dts-v1/;
+#include "cresk_choc_nrf52840.dtsi"
+#include "cresk_choc_nrf52_right.dtsi"
