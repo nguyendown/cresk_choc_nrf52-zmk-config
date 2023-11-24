@@ -20,13 +20,7 @@ config ZMK_SPLIT
 	default y
 
 config BT_CTLR
-	default y
-
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
+	default BT
 
 if USB
 
