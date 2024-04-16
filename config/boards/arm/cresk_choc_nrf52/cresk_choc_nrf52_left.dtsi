@@ -5,6 +5,8 @@
  */
 
 &kscan0 {
+    compatible = "zmk,kscan-gpio-direct";
+
 	input-gpios
 		= <&gpio0 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 		, <&gpio0  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
