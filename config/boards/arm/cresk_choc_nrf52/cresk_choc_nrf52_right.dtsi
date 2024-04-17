@@ -5,7 +5,7 @@
  */
 
 &default_transform {
-	row-offset = <1>;
+	row-offset = <4>;
 };
 
 &kscan0 {
