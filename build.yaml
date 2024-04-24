@@ -17,3 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+include:
+  - board: cresk_choc_nrf52833_left
+  - board: cresk_choc_nrf52833_right
