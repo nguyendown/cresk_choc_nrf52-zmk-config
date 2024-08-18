@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-behavior-socd
+    - name: zmk-behavior-non-overlap
       remote: nguyendown
       revision: main
   self:

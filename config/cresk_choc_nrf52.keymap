@@ -5,7 +5,7 @@
  */
 
 #include <behaviors.dtsi>
-#include <behaviors/socd.dtsi>
+#include <behaviors/non_overlap.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -26,7 +26,7 @@
 		default_layer {
 			bindings = <
 &kp F &kp L &kp H &kp V &kp Z &kp W &kp C &kp U &kp O &kp Y
-&kp S &socd R &kp N &socd T &kp K &kp P &kp D &kp E &kp A &kp I
+&kp S &nkp R &kp N &nkp T &kp K &kp P &kp D &kp E &kp A &kp I
 &kp X &kp J &kp B &kp M &kp Q &kp SQT &kp G &kp COMMA &kp DOT &kp FSLH
 &sl 1 &kp SPACE &sk LSHIFT &sk LCTRL
 			>;
