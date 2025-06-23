@@ -5,16 +5,19 @@
  */
 
 #include <behaviors.dtsi>
+#include <behaviors/sticky2.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
 &sk {
+	hold-ms = <100>;
 	release-after-ms = <200>;
 	quick-release;
 };
 
 &sl {
+	hold-ms = <100>;
 	release-after-ms = <200>;
 };
 

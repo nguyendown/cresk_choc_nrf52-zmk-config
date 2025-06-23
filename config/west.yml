@@ -15,5 +15,8 @@ manifest:
     - name: zmk-cresk-module
       remote: nguyendown
       revision: main
+    - name: zmk-behavior-sticky2
+      remote: nguyendown
+      revision: main
   self:
     path: config
