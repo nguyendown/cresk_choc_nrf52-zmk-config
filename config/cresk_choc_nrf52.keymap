@@ -11,13 +11,13 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &sk {
-	hold-ms = <100>;
+	hold-ms = <150>;
 	release-after-ms = <200>;
 	quick-release;
 };
 
 &sl {
-	hold-ms = <100>;
+	hold-ms = <150>;
 	release-after-ms = <200>;
 };
 
