@@ -46,18 +46,18 @@
 		function_layer {
 			bindings = <
 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-&kp S &kp R &kp N &kp T &mo 3 &kp P &kp D &kp E &kp F11 &kp F12
-&kp X &kp PG_DN &kp B &kp M &out OUT_TOG &kp SQT &kp G &kp COMMA &kp DOT &kp FSLH
-&sl 1 &kp SPACE &sk LS(LALT) &sk LC(LALT)
+&trans &trans &trans &trans &mo 3 &trans &trans &trans &kp F11 &kp 12
+&trans &kp PG_DN &kp PG_UP &trans &trans &trans &trans &trans &trans &trans
+&sl 1 &trans &sk LS(LALT) &sk LC(LALT)
 			>;
 		};
 
 		sys_layer {
 			bindings = <
-&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans
-&trans &trans &trans &bt BT_CLR &trans &trans &trans &trans &trans &trans
-&bootloader &trans &trans &trans &trans &trans &trans &trans &trans &bootloader
-&trans &trans &trans &trans
+&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &none &none &none
+&none &none &none &bt BT_CLR &none &none &none &none &none &none
+&bootloader &none &none &none &out OUT_TOG &none &none &none &none &bootloader
+&none &none &none &none
 			>;
 		};
 	};
